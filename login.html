@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/libs.bundle.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+    <!-- Add Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title -->
+    <title>Touché - Café</title>
+  </head>
+  <body>
+    <!-- Login Form -->
+    <form id="loginForm">
+      <input type="text" id="username" name="username" placeholder="Username" />
+      <input type="password" id="password" name="password" placeholder="Password" />
+      <button type="submit">Login</button>
+    </form>
+    <!-- CSS for Login Form -->
+    <style>
+      #loginForm {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      #loginForm input {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      #loginForm button {
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+    <!-- JavaScript for Login Process -->
+    <script>
+      document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        // Add your login process logic here
+      });
+    </script>
+    <!-- JAVASCRIPT -->
+
+    <!-- Vendor JS Files 
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    
+    -->
+    <!-- External JS -->
+    <script src="assets/js/hoverable.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/vendor/jqueryParallax.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <!-- Counter Script -->
+    <script src="assets/js/counter.js"></script>
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".hero-slider", {
+        slidesPerView: 1,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        effect: "fade",
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- JavaScript -->
+    <script>
+      // Toast Notification
+      var toast = document.getElementById("notification");
+      if (toast) {
+        window.onload = function () {
+          const message = "{{ session('message') }}";
+          const type = "{{ session('type') }}";
+          switch (type) {
+            case "success":
+              showToast(message, "#4caf50", "bg-white text-dark");
+              break;
+            case "error":
+              showToast(message, "#ff787a", "bg-white text-dark");
+              break;
+            default:
+              showToast(message);
+          }
+        };
+      } else {
+        console.log("No Toast Available!");
+      }
+      function showToast(message, color = "#fff", bgColor = "#6c757d") {
+        let toastBody = (document.querySelector(
+          ".toast .toast-body"
+        ).innerHTML = "");
+        toastBody.classList.add(color);
+        toastBody.style.backgroundColor = bgColor;
+        toastBody.innerText = message;
+        toast.show();
+        setTimeout(() => {
+          toast.hide();
+        }, 12000);
+      }
+
+      // Sweet Alert
+
+      Swal.fire({
+        icon: "warning",
+        title:
+          '<strong><i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;Error!</strong>',
+        html: `
+                         @foreach($errors->all() as $error)
+                           {{ $error }}<br/>
+                           @endforeach`,
+        confirmButtonClass: "btn btn-primary",
+      });
+
+      // Confirm Delete
+      $(".delete").click(function () {
+        Swal.fire({
+          title: "Are you sure?",
+          text: "You won't be able to revert this!",
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Yes, delete it!",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            $(this).parent().submit();
+          }
+        });
+      });
+    </script>
+    <!-- Vendor JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

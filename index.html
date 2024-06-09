@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/libs.bundle.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+    <!-- Add Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title -->
+    <title>Touché - Café</title>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+      <div class="container">
+        <!-- Navbar brand (mobile) -->
+        <a class="navbar-brand d-lg-none" href="./index.html">Touché</a>
+
+        <!-- Navbar toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./reservation.html">Reservation</a>
+            </li>
+          </ul>
+
+          <!-- Navbar brand -->
+          <a
+            class="navbar-brand d-none d-lg-flex mx-lg-auto"
+            href="./index.html"
+          >
+            Touché
+          </a>
+
+          <!-- Navbar nav -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./news-and-events.html"
+                >News & Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact-us.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header
+      class="swiper-container hero-slider section section-top section-full"
+      data-parallax="scroll"
+    >
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div
+          class="swiper-slide d-flex flex-column min-vh-100 bg-black-50 pt-10 pt-md-8 pb-7 pb-md-0"
+          style="
+            background-image: url(assets/img/home1.jpg);
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="container my-auto">
+            <div class="row justify-content-left">
+              <div class="col-12 col-md-8 col-lg-6 text-center">
+                <!-- Preheading -->
+                <h6 class="text-xs text-white-75">
+                  La<span class="text-primary">Unit</span> / Creatives
+                </h6>
+                <!-- Heading -->
+                <h1 class="display-1 text-white mb-4">Launit</h1>
+                <!-- Subheading -->
+                <p class="text-center text-white-75 mb-7">
+                  A unique café located in the heart of Los Angeles. Always
+                  fresh coffee and biscuits. Open for indoor dining and to-go
+                  orders.
+                </p>
+                <!-- Button -->
+                <a
+                  class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0"
+                  href="#reservation"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div
+          class="swiper-slide d-flex flex-column min-vh-100 bg-black-50 pt-10 pt-md-8 pb-7 pb-md-0"
+          style="
+            background-image: url(assets/img/home2.jpg);
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="container my-auto">
+            <div class="row justify-content-left">
+              <div class="col-12 col-md-8 col-lg-6 text-center">
+                <!-- Preheading -->
+                <h6 class="text-xs text-white-75">
+                  <span class="text-primary">Creatives</span> / Studio
+                </h6>
+                <!-- Heading -->
+                <h1 class="display-1 text-white mb-4">Garshin</h1>
+                <!-- Subheading -->
+                <p class="text-center text-white-75 mb-7">
+                  A unique café located in the heart of Los Angeles. Always
+                  fresh coffee and biscuits. Open for indoor dining and to-go
+                  orders.
+                </p>
+                <!-- Button -->
+                <a
+                  class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0"
+                  href="#reservation"
+                >
+                  Make reservation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div
+          class="swiper-slide d-flex flex-column min-vh-100 bg-black-50 pt-10 pt-md-8 pb-7 pb-md-0"
+          style="
+            background-image: url(assets/img/ken.jpg);
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="container my-auto">
+            <div class="row justify-content-left">
+              <div class="col-12 col-md-8 col-lg-6 text-center">
+                <!-- Preheading -->
+                <h6 class="text-xs text-white-75">
+                  <span class="text-primary">Web</span> / Sales
+                </h6>
+                <!-- Heading -->
+                <h1 class="display-1 text-white mb-4">Peaps</h1>
+                <!-- Subheading -->
+                <p class="text-center text-white-75 mb-7">
+                  A unique café located in the heart of Los Angeles. Always
+                  fresh coffee and biscuits. Open for indoor dining and to-go
+                  orders.
+                </p>
+                <!-- Button -->
+                <a
+                  class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0"
+                  href="#reservation"
+                >
+                  Make reservation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-footer">
+        <div class="container">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+              <div class="swiper-pagination" style="overflow-x: hidden"></div>
+            </div>
+            <!-- Add Navigation -->
+            <div class="col-lg-6 text-right">
+              <div class="swiper-navigation">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Hero Section -->
+
+    <!-- DISCOVER -->
+    <section class="pt-7 pt-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <!-- Divider -->
+            <hr class="hr-sm bg-primary" />
+
+            <!-- Text -->
+            <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
+              Take a coffee break or enjoy a meal.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+              <!-- Border -->
+              <div
+                class="media-decoration-border"
+                data-parallax-element="-40"
+              ></div>
+
+              <!-- Image -->
+              <img
+                class="media-decoration-img img-fluid"
+                src="assets/img/Event.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-5 align-self-center mx-auto">
+            <!-- Heading -->
+            <h2 class="mb-2"><em>Always</em> amazing experience</h2>
+
+            <!-- Text -->
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestias veritatis nisi, consequatur, laborum libero a neque
+              ducimus. Porro rem illum quo nostrum quisquam asperiores. Possimus
+              facilis velit, voluptatibus!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVER -->
+    <section class="py-7 py-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 order-md-2 align-self-end">
+            <!-- Divider -->
+            <hr class="hr-sm bg-primary" />
+
+            <!-- Text -->
+            <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
+              Great variety of foods you will enjoy.
+            </p>
+          </div>
+          <div class="col-md-4 order-md-3">
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+              <!-- Solid -->
+              <div
+                class="media-decoration-solid"
+                data-parallax-element="-40"
+              ></div>
+
+              <!-- Border -->
+              <div
+                class="media-decoration-border"
+                data-parallax-element="-40"
+              ></div>
+
+              <!-- Image -->
+              <img
+                class="media-decoration-img img-fluid"
+                src="assets/img/Wedding.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-5 order-md-1 align-self-center mx-auto">
+            <!-- Heading -->
+            <h2 class="mb-2"><em>Beautiful</em> outdoor seating</h2>
+
+            <!-- Text -->
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
+              quae similique asperiores consequatur! Nihil temporibus qui enim.
+              Accusamus voluptates a, et quidem! Quo, et?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVER -->
+    <section class="pt-7 pt-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <!-- Divider -->
+            <hr class="hr-sm bg-primary" />
+
+            <!-- Text -->
+            <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
+              Take a coffee break or enjoy a meal.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+              <!-- Border -->
+              <div
+                class="media-decoration-border"
+                data-parallax-element="-40"
+              ></div>
+
+              <!-- Image -->
+              <img
+                class="media-decoration-img img-fluid"
+                src="assets/img/place2.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-md-5 align-self-center mx-auto">
+            <!-- Heading -->
+            <h2 class="mb-2"><em>Always</em> amazing experience</h2>
+
+            <!-- Text -->
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestias veritatis nisi, consequatur, laborum libero a neque
+              ducimus. Porro rem illum quo nostrum quisquam asperiores. Possimus
+              facilis velit, voluptatibus!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section
+      data-parallax
+      data-speed=".8"
+      style="background-image: url(assets/img/19.jpg)"
+    >
+      <div class="min-vh-100 py-7 py-md-9 bg-gradient-bottom-end-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- Divider -->
+              <hr class="hr-sm bg-primary" />
+
+              <!-- Text -->
+              <p class="fs-lg lh-lg text-black mb-0">
+                Enjoy our specialty coffees and award winning doughnuts in a
+                friendly atmosphere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="py-7 py-md-9 border-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Menu options</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              numquam eos perferendis itaque hic unde, ad, laudantium minima.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!-- Navigation -->
+            <div
+              class="nav justify-content-center mb-6"
+              id="menuTabs"
+              role="tablist"
+            >
+              <a
+                class="nav-link active"
+                id="mainsTab"
+                data-bs-toggle="tab"
+                href="#mains"
+                role="tab"
+                aria-controls="mains"
+                aria-selected="true"
+              >
+                Mains
+              </a>
+              <a
+                class="nav-link"
+                id="lunchTab"
+                data-bs-toggle="tab"
+                href="#lunch"
+                role="tab"
+                aria-controls="lunch"
+              >
+                Lunch
+              </a>
+              <a
+                class="nav-link"
+                id="dinnerTab"
+                data-bs-toggle="tab"
+                href="#dinner"
+                role="tab"
+                aria-controls="dinner"
+              >
+                Dinner
+              </a>
+              <a
+                class="nav-link"
+                id="drinksTab"
+                data-bs-toggle="tab"
+                href="#drinks"
+                role="tab"
+                aria-controls="drinks"
+              >
+                Drinks
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Content -->
+            <div class="tab-content" id="menuContent">
+              <div
+                class="tab-pane fade show active"
+                id="mains"
+                role="tabpanel"
+                aria-labelledby="mainsTab"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/26.jpg"
+                              alt="..."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/27.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/28.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/29.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/30.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/31.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="lunch"
+                role="tabpanel"
+                aria-labelledby="lunchTab"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/27.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/26.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/29.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/28.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/31.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/30.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="dinner"
+                role="tabpanel"
+                aria-labelledby="dinnerTab"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/28.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/26.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/29.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/27.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/30.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/31.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="drinks"
+                role="tabpanel"
+                aria-labelledby="drinksTab"
+              >
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/26.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/30.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/29.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Lorem ipsum dolor sit amet</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $15
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/27.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce id ante ut arcu</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $23
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/28.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="py-3 border-bottom">
+                      <div class="row">
+                        <div class="col-3 align-self-center">
+                          <!-- Image -->
+                          <div class="ratio ratio-1x1">
+                            <img
+                              class="object-fit-cover"
+                              src="assets/img/31.jpg"
+                              alt="assets/img/home1.jpg"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-7">
+                          <!-- Heading -->
+                          <h5 class="mb-2">Fusce sed dolor eget tortor</h5>
+
+                          <!-- Text -->
+                          <p class="mb-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Modi, obcaecati! Sapiente laudantium.
+                          </p>
+                        </div>
+                        <div class="col-2">
+                          <!-- Price -->
+                          <div class="fs-4 font-serif text-center text-black">
+                            $16
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISHES -->
+    <section class="py-7 py-md-9 overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Our <em>featured</em> dishes</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
+              aliquam id sint accusamus eius voluptatum explicabo quae
+              similique, quas.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Slider -->
+            <div
+              class="flickity-viewport-visible"
+              data-flickity='{"cellAlign": "left", "contain": true, "imagesLoaded": true, "pageDots": false}'
+            >
+              <div class="w-100 px-2" style="max-width: 320px">
+                <!-- Card -->
+                <div class="card border-0">
+                  <!-- Image -->
+                  <img
+                    class="card-img-top"
+                    src="assets/img/26.jpg"
+                    alt="assets/img/home1.jpg"
+                  />
+
+                  <!-- Body -->
+                  <div class="card-body">
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$15</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum
+                      iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px">
+                <!-- Card -->
+                <div class="card border-0">
+                  <!-- Image -->
+                  <img
+                    class="card-img-top"
+                    src="assets/img/27.jpg"
+                    alt="assets/img/home1.jpg"
+                  />
+
+                  <!-- Body -->
+                  <div class="card-body">
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$18</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum
+                      iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px">
+                <!-- Card -->
+                <div class="card border-0">
+                  <!-- Image -->
+                  <img
+                    class="card-img-top"
+                    src="assets/img/28.jpg"
+                    alt="assets/img/home1.jpg"
+                  />
+
+                  <!-- Body -->
+                  <div class="card-body">
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$23</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum
+                      iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px">
+                <!-- Card -->
+                <div class="card border-0">
+                  <!-- Image -->
+                  <img
+                    class="card-img-top"
+                    src="assets/img/29.jpg"
+                    alt="assets/img/home1.jpg"
+                  />
+
+                  <!-- Body -->
+                  <div class="card-body">
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$32</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum
+                      iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px">
+                <!-- Card -->
+                <div class="card border-0">
+                  <!-- Image -->
+                  <img
+                    class="card-img-top"
+                    src="assets/img/30.jpg"
+                    alt="assets/img/home1.jpg"
+                  />
+
+                  <!-- Body -->
+                  <div class="card-body">
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$15</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum
+                      iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px">
+                <!-- Card -->
+                <div class="card border-0">
+                  <!-- Image -->
+                  <img
+                    class="card-img-top"
+                    src="assets/img/31.jpg"
+                    alt="assets/img/home1.jpg"
+                  />
+
+                  <!-- Body -->
+                  <div class="card-body">
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$42</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum
+                      iste.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Facts</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              numquam eos perferendis itaque hic unde, ad, laudantium minima.
+            </p>
+          </div>
+        </div>
+
+        <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="232"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="421"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="1364"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="38"
+              data-purecounter-duration="1"
+              class="purecounter"
+            ></span>
+            <p>Hard Workers</p>
+          </div>
+        </div>
+
+        <div class="facts-img">
+          <img src="assets/img/facts-img.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+    <!-- End Facts Section -->
+
+    <!-- RESERVATION -->
+    <section class="py-7 py-md-9 bg-light" id="reservation">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Make online reservation</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              illo praesentium sequi in cum, beatae maiores quae qui.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-8">
+            <!-- Form -->
+            <form id="reservationForm">
+              <div class="row gx-3">
+                <div class="col-md-6">
+                  <!-- Contact number (hidden) -->
+                  <input type="hidden" name="contact_number" />
+
+                  <!-- Full name -->
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="user_name"
+                      >Full name</label
+                    >
+                    <input
+                      class="form-control"
+                      id="user_name"
+                      name="user_name"
+                      type="text"
+                      placeholder="Full name"
+                      required
+                    />
+                  </div>
+
+                  <!-- Phone number -->
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="user_phone"
+                      >Phone number</label
+                    >
+                    <input
+                      class="form-control"
+                      id="user_phone"
+                      name="user_phone"
+                      type="tel"
+                      placeholder="Phone number"
+                      required
+                    />
+                  </div>
+
+                  <!-- Email address -->
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="user_email"
+                      >Email address</label
+                    >
+                    <input
+                      class="form-control"
+                      id="user_email"
+                      name="user_email"
+                      type="email"
+                      placeholder="Email address"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- Guests -->
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="guests">Guests</label>
+                    <select
+                      class="form-select"
+                      id="guests"
+                      name="guests"
+                      required
+                    >
+                      <option value="1">1 person</option>
+                      <option value="2" selected="">2 persons</option>
+                      <option value="3">3 persons</option>
+                      <option value="4">4 persons</option>
+                      <option value="5">5 persons</option>
+                    </select>
+                  </div>
+
+                  <!-- Date -->
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="date">Date</label>
+                    <input
+                      class="form-control"
+                      id="date"
+                      name="date"
+                      type="date"
+                      value="2021-02-12"
+                      required
+                    />
+                  </div>
+
+                  <!-- Time -->
+                  <div class="mb-3">
+                    <label class="visually-hidden" for="time">Time</label>
+                    <input
+                      class="form-control"
+                      id="time"
+                      name="time"
+                      type="time"
+                      value="18:00"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <!-- Button -->
+                  <button class="btn btn-outline-primary" type="submit">
+                    Reserve a table
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="py-7 py-md-9 border-bottom">
+      <div class="container" data-aos="zoom-in">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Our Clients</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <!-- Slider -->
+              <div
+                data-flickity='{"imagesLoaded": true, "wrapAround": true, "autoPlay": true, "pageDots": false, "contain": true}'
+              >
+                <div class="w-100">
+                  <div
+                    class="slider row align-items-center justify-content-center"
+                  >
+                    <div class="logos col-8 col-md-3 order-md-1">
+                      <img
+                        src="assets/img/sponsors1.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="logos col-8 col-md-3 order-md-1">
+                      <img
+                        src="assets/img/sponsors2.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="logos col-8 col-md-3 order-md-1">
+                      <img
+                        src="assets/img/sponsors3.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="logos col-8 col-md-3 order-md-1">
+                      <img
+                        src="assets/img/sponsors4.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="logos col-8 col-md-3 order-md-1">
+                      <img
+                        src="assets/img/sponsors5.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Clients Section -->
+
+    <!-- NEWSLETTER -->
+    <section class="py-7 py-md-9 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Newsletter</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              illo praesentium sequi in cum, beatae maiores quae qui.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form
+                action="https://gmail.us6.list-manage.com/subscribe/post?u=c7b7808bb5a16b9f09c4e1fe0&amp;id=96b8442f9a"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                target="_blank"
+                novalidate
+              >
+                <div
+                  class="row justify-content-center gx-3"
+                  id="mc_embed_signup_scroll"
+                >
+                  <div class="col">
+                    <label class="visually-hidden" for="mce-EMAIL"
+                      >Email Address
+                    </label>
+                    <input
+                      class="form-control"
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      id="mce-EMAIL"
+                    />
+                  </div>
+                  <div class="visually-hidden" id="mce-responses">
+                    <div
+                      class="response"
+                      id="mce-error-response"
+                      style="display: none"
+                    ></div>
+                    <div
+                      class="response"
+                      id="mce-success-response"
+                      style="display: none"
+                    ></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div
+                    style="position: absolute; left: -5000px"
+                    aria-hidden="true"
+                  >
+                    <input
+                      type="text"
+                      name="b_c7b7808bb5a16b9f09c4e1fe0_96b8442f9a"
+                      tabindex="-1"
+                      value=""
+                    />
+                  </div>
+                  <div class="col-auto">
+                    <input
+                      class="btn btn-outline-primary"
+                      type="submit"
+                      value="Subscribe"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="py-7 py-md-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Our gallery</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="row gx-3" data-isotope>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/about1.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/about1.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/home2.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/home2.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/place3.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/place3.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/Fashion.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/Fashion.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/about2.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/about2.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/Corporate.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/Corporate.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/discover1.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/discover1.jpg" alt="..." />
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <!-- Item -->
+            <a
+              class="d-block mb-3"
+              href="#"
+              data-bigpicture='{ "imgSrc": "assets/img/discover2.jpg" }'
+            >
+              <img class="img-fluid" src="assets/img/discover2.jpg" alt="..." />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="py-7 py-md-9 border-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">What clients say about us</h2>
+
+            <!-- Subheading -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Slider -->
+            <div data-flickity='{"imagesLoaded": true, "wrapAround": true}'>
+              <div class="w-100">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-8 col-md-3 order-md-1">
+                    <!-- Avatar -->
+                    <img
+                      class="img-fluid rounded-circle mb-5 mb-md-0"
+                      src="assets/img/about2.jpg"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7 order-md-0">
+                    <!-- Blockquote -->
+                    <figure class="mx-auto mb-0" style="max-width: 500px">
+                      <blockquote class="blockquote mb-0">
+                        <p class="font-serif text-black mb-5">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Eos at veritatis vitae modi ex quis quibusdam
+                          error repudiandae adipisci dolore perspiciatis iste,
+                          vel fuga a, libero architecto ratione deleniti sequi.
+                        </p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer text-xs mb-0">
+                        Liam Smith
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-8 col-md-3 order-md-1">
+                    <!-- Avatar -->
+                    <img
+                      class="img-fluid rounded-circle mb-5 mb-md-0"
+                      src="assets/img/home2.jpg"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7 order-md-0">
+                    <!-- Blockquote -->
+                    <figure class="mx-auto mb-0" style="max-width: 500px">
+                      <blockquote class="blockquote mb-0">
+                        <p class="font-serif text-black mb-5">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Eos at veritatis vitae modi ex quis quibusdam
+                          error repudiandae adipisci dolore perspiciatis iste,
+                          vel fuga a, libero architecto ratione deleniti sequi.
+                        </p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer text-xs mb-0">
+                        Olivia Johnson
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-8 col-md-3 order-md-1">
+                    <!-- Avatar -->
+                    <img
+                      class="img-fluid rounded-circle mb-5 mb-md-0"
+                      src="assets/img/home1.jpg"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7 order-md-0">
+                    <!-- Blockquote -->
+                    <figure class="mx-auto mb-0" style="max-width: 500px">
+                      <blockquote class="blockquote mb-0">
+                        <p class="font-serif text-black mb-5">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Eos at veritatis vitae modi ex quis quibusdam
+                          error repudiandae adipisci dolore perspiciatis iste,
+                          vel fuga a, libero architecto ratione deleniti sequi.
+                        </p>
+                      </blockquote>
+                      <figcaption class="blockquote-footer text-xs mb-0">
+                        Emma Williams
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-7 py-md-9 bg-black">
+      <div class="container px-4">
+        <div class="row gx-7">
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">About Us</h5>
+
+            <!-- Text -->
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+              dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi
+              saepe.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">Contact info</h5>
+
+            <!-- List -->
+            <ul class="list-unstyled mb-6">
+              <li class="d-flex mb-2">
+                <div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
+                1234 Altschul, Los Angeles, CA 10027-0000
+              </li>
+              <li class="d-flex mb-2">
+                <div class="fas fa-phone me-3 mt-2 fs-sm"></div>
+                +1 987 654 3210
+              </li>
+              <li class="d-flex">
+                <div class="far fa-envelope me-3 mt-2 fs-sm"></div>
+                <a href="mailto:admin@domain.com">admin@domain.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <!-- Heading -->
+            <h5 class="text-xs text-primary">Opening hours</h5>
+
+            <!-- Text -->
+            <div class="mb-3">
+              <div class="text-xs">Monday - Thursday</div>
+              <div class="font-serif">10:00 AM - 11:00 PM</div>
+            </div>
+
+            <!-- Text -->
+            <div class="mb-6">
+              <div class="text-xs">Friday - Sunday</div>
+              <div class="font-serif">12:00 AM - 03:00 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <!-- Copyright -->
+            <div class="d-flex align-items-center">
+              <hr class="hr-sm me-3" style="height: 1px" />
+              &copy; 2021 Touché. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+    <!-- TOAST -->
+    <div
+      class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5"
+      id="notification"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      <div class="d-flex">
+        <div class="toast-body mx-auto"></div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+
+    <!-- Vendor JS Files 
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    
+  -->
+    <!-- External JS -->
+    <script src="assets/js/hoverable.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/vendor/jqueryParallax.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <!-- Counter Script -->
+    <script src="assets/js/counter.js"></script>
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".hero-slider", {
+        slidesPerView: 1,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        effect: "fade",
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- JavaScript -->
+    <script>
+      // Toast Notification
+      var toast = document.getElementById("notification");
+      if (toast) {
+        window.onload = function () {
+          const message = "{{ session('message') }}";
+          const type = "{{ session('type') }}";
+          switch (type) {
+            case "success":
+              showToast(message, "#4caf50", "bg-white text-dark");
+              break;
+            case "error":
+              showToast(message, "#ff787a", "bg-white text-dark");
+              break;
+            default:
+              showToast(message);
+          }
+        };
+      } else {
+        console.log("No Toast Available!");
+      }
+      function showToast(message, color = "#fff", bgColor = "#6c757d") {
+        let toastBody = (document.querySelector(
+          ".toast .toast-body"
+        ).innerHTML = "");
+        toastBody.classList.add(color);
+        toastBody.style.backgroundColor = bgColor;
+        toastBody.innerText = message;
+        toast.show();
+        setTimeout(() => {
+          toast.hide();
+        }, 12000);
+      }
+
+      // Sweet Alert
+
+      Swal.fire({
+        icon: "warning",
+        title:
+          '<strong><i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;Error!</strong>',
+        html: `
+                         @foreach($errors->all() as $error)
+                           {{ $error }}<br/>
+                           @endforeach`,
+        confirmButtonClass: "btn btn-primary",
+      });
+
+      // Confirm Delete
+      $(".delete").click(function () {
+        Swal.fire({
+          title: "Are you sure?",
+          text: "You won't be able to revert this!",
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Yes, delete it!",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            $(this).parent().submit();
+          }
+        });
+      });
+    </script>
+    <!-- Vendor JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
